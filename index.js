@@ -36,21 +36,22 @@
 
 //Create a function of your own that solves a problem. In comments, write what the function does and why you created it.
 
-//const ages = [3, 9, 23, 64, 2, 8, 28, 93];
-//ages.push(42);
-//console.log(ages);
+let ages = [3, 9, 23, 64, 2, 8, 28, 93];
+console.log('ages:', ages);
+let minusAge = ages [ages.length - 1] - ages[0];
+console.log("minusAge", minusAge);
 
-//const firstElement = ages[1];
-//const lastElement = ages[ages.length - 1];
-//const difference = lastElement - firstElement;
-//console.log(difference);
+const firstElement = ages[1];
+const lastElement = ages[ages.length - 1];
+const difference = lastElement - firstElement;
+console.log(difference);
 
-//let sum = 0;
-//for (let i = 0; i < ages.length; i++) {
-   // sum += ages[i];
-//}
-//const averageAge = sum / ages.length;
-//console.log(averageAge);
+let sum = 0;
+for (let i = 0; i < ages.length; i++) {
+    sum += ages[i];
+}
+const averageAge = sum / ages.length;
+console.log(averageAge);
 
 const names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
 console.log(names);
@@ -74,31 +75,31 @@ for (let i = 0; i < names.length; i++) {
 console.log('Concatenated names:', concatenatedNames);
 
 
-//const myArray = [1, 2, 3, 4, 5];
-//const lastElement = myArray[myArray.length - 1];
-//console.log(lastElement); 
+const myArrays = [1, 2, 3, 4, 5];
+const lastElements = myArray[myArray.length - 1];
+console.log(lastElement); 
 
-//const myArray = [10, 20, 30, 40, 50];
-//const firstElement = myArray[0];
-//console.log(firstElement); 
+const myArray = [10, 20, 30, 40, 50];
+const firstElements = myArray[0];
+console.log(firstElement); 
 
-//let nameLengths = [];
+let nameLengths = [];
 
 
-//for (let i = 0; i < names.length; i++) {
-   // const name = names[i];
-    //const length = name.length;
-    //nameLengths.push(length);
-//}
+for (let i = 0; i < names.length; i++) {
+    const name = names[i];
+    const length = name.length;
+    nameLengths.push(length);
+}
 
-//console.log(nameLengths);
+console.log(nameLengths);
 
-//const nameLengths = [3, 5, 3, 5, 4, 3];
-//let sum = 0;
-//for (let i = 0; i < nameLengths.length; i++) {
-    //sum += nameLengths[i];
-//}
-//console.log(sum);
+const namesLengths = [3, 5, 3, 5, 4, 3];
+let sums = 0;
+for (let i = 0; i < namesLengths.length; i++) {
+    sum += nameLengths[i];
+}
+console.log(sum);
 
 function calculateSum(arr) {
     let sum = 0;
@@ -108,8 +109,8 @@ function calculateSum(arr) {
     return sum;
 }
 
-const nameLengths = [3, 5, 3, 5, 4, 3];
-const totalSum = calculateSum(nameLengths);
+const nameLengthss = [3, 5, 3, 5, 4, 3];
+const totalSum = calculateSum(nameLengthss);
 console.log(totalSum);
 
 function repeatedWord(word, n) {
